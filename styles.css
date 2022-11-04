@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Kumbh Sans, Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: hsl(238, 29%, 16%);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(hsl(273, 75%, 66%) , hsl(240, 73%, 65%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    padding-top: 17vh;
+    background: url(./images/bg-pattern-mobile.svg)no-repeat;
+    background-size: 60%;
+    background-position: top center;
+    border-radius: 25px;
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    margin: 10% 5% 0 5%;
+    overflow: scroll;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+}
+
+.logocenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: 700;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+p,
+h2{
+    padding: 0 5%;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+}
+
+p{
+    margin-top: 5%;
+    display: none;
+}
+
+hr{
+    width: 90%;
+    margin: 5%;
+}
+
+.logo{
+    position: absolute;
+    top: 5vh;
+    width: 50vw;
+}
+
+.question_block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.question_block button{
+    border: none;
+    float: right;
+    background: transparent;
+}

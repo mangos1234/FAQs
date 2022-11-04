@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" media="screen and (min-width: 500px)" href="desktop.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+<body>
+
+  <div class="main center">
+
+    <div class="logocenter">
+      <img class="logo" src="./images/illustration-woman-online-mobile.svg" alt="logo">      
+    </div>
+
+    <section class="faq">
+      <h1>FAQ</h1>  
+
+      <div class="question_block">
+        <h2>How many team members can I invite? <button onclick="dropDown(1)"><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></button></h2>
+        <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+        <div class="center">
+          <hr>
+        </div>
+      </div> 
+
+      <div class="question_block">
+        <h2>What is the maximum file upload size? <button onclick="dropDown(2)"><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></button></h2>
+        <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        <div class="center">
+          <hr>
+        </div>
+      </div> 
+
+      <div class="question_block">
+        <h2>How do I reset my password? <button onclick="dropDown(3)"><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></button></h2>
+        <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+        <div class="center">
+          <hr>
+        </div>
+      </div> 
+
+      <div class="question_block">
+        <h2>Can I cancel my subscription? <button onclick="dropDown(4)"><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></button></h2>
+        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        <div class="center">
+          <hr>
+        </div>
+      </div> 
+
+      <div class="question_block">
+        <h2>Do you provide additional support? <button onclick="dropDown(5)"><img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></button></h2>
+        <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        <div class="center">
+          <hr>
+        </div>
+      </div> 
+    </section>
+
+  </div>
+  <script src="./code.js"></script>
+</body>
+</html>
